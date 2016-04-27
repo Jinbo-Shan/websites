@@ -1,0 +1,22 @@
+{
+  "name": "websites",
+  "description": "Test",
+  "main": "index.js",
+  "authors": [
+    "Jinbo Shan"
+  ],
+  "license": "'MIT'",
+  "homepage": "https://github.com/Jinbo-Shan/websites",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "^1.0.7",
+    "angular-ui-router": "^0.2.18",
+    "font-awesome": "^4.6.1"
+  }
+}

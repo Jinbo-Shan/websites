@@ -1,0 +1,46 @@
+<md-toolbar class="main-nav background-regal l-pinned-top l-layer-5 md-default-theme" ng-controller="CtrlNavbar">
+  <nav>
+    <h1>
+      <a class="md-button md-default-theme" href="#" md-button="">
+        <span class="ng-scope">红蚂蚁装饰</span>
+      </a>
+    </h1>
+    <button class="main-nav-button main-nav-mobile-trigger l-right md-button md-default-theme" aria-label="View Menu" ng-transclude="" ng-click="toggleMainMenu($event)" md-button="md-button" tabindex="0">
+      <span class="ng-scope">Site Menu </span>
+      <span style="position: absolute;top: -3px;right: 15px;"><i class="fa fa-sort-desc"></i></span>
+      <!--<span class="icon icon-arrow-drop-down ng-scope"><i class="fa fa-sort-desc"></i></span>-->
+    </button>
+    <ul ng-class="showMainNav ? 'is-visible' : ''">
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)"
+           href="#/home" md-button="">
+          <span class="ng-scope">首页</span>
+        </a>
+      </li>
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)"
+           href="#/users" md-button="">
+          <span class="ng-scope">Users</span>
+        </a>
+      </li>
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)"
+           href="#/portals" md-button="">
+          <span class="ng-scope">Portals</span>
+        </a>
+      </li>
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)"
+           href="#/communities" md-button="">
+          <span class="ng-scope">Communities</span>
+        </a>
+      </li>
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)"
+           href="#/reading/guides" md-button="">
+          <span class="ng-scope">Reading</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</md-toolbar>
